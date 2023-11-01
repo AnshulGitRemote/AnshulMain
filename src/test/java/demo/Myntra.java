@@ -9,6 +9,7 @@ public class Myntra {
   public void MyntraTest() throws InterruptedException {
 	  WebDriver driver= new ChromeDriver();
 	  driver.get("https://www.myntra.com/");
+	  System.out.println("2nd Changes");
 	  driver.close();
 	  Thread.sleep(4000);
   }
